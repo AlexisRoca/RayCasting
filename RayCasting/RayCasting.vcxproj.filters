@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Math">
+      <UniqueIdentifier>{bf2c56de-1c6e-4909-b4e3-04148e413a61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Geometry">
+      <UniqueIdentifier>{7ce817e7-f530-4eea-9ccc-51bbee30f66f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Geometry\Geometry">
+      <UniqueIdentifier>{f8427dbd-edcb-4bd8-9e74-012110e67382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Geometry\Rays">
+      <UniqueIdentifier>{710c92d7-a9d7-4d99-9bab-34aec6ff30ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Geometry\Lights &amp; colors">
+      <UniqueIdentifier>{6ff99445-2266-47d9-afd3-89ea74cec49c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Geometry\Camera">
+      <UniqueIdentifier>{fde4addc-d530-4a37-9d50-99edcf26745d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Spy">
+      <UniqueIdentifier>{9074dc13-507c-4422-8edc-187b15f57cc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Set">
+      <UniqueIdentifier>{e808979b-1f69-49c8-8d0c-cfda2e9c828d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Visualizer">
+      <UniqueIdentifier>{bd7b569a-d39d-471d-97c5-678c8822bb77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="Extern">
+      <UniqueIdentifier>{77d2f88b-0770-4fe7-a8f5-c0674ad987e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Geometry\Geometry\src">
+      <UniqueIdentifier>{cff75101-8bec-4d62-999c-76a27de2655b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Math\sse">
+      <UniqueIdentifier>{2318877f-5754-4d6a-9278-d93e1dc69999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System">
+      <UniqueIdentifier>{eef33398-c94d-4feb-9bff-22daa2c58604}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SpecificVisual.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\namespaceDoc.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Object.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Quaternion.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector3.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\namespaceDoc.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Scene.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\BoundingBox.h">
+      <Filter>Header Files\Geometry\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Cone.h">
+      <Filter>Header Files\Geometry\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Cornel.h">
+      <Filter>Header Files\Geometry\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Cube.h">
+      <Filter>Header Files\Geometry\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Cylinder.h">
+      <Filter>Header Files\Geometry\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Disk.h">
+      <Filter>Header Files\Geometry\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Geometry.h">
+      <Filter>Header Files\Geometry\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Square.h">
+      <Filter>Header Files\Geometry\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Triangle.h">
+      <Filter>Header Files\Geometry\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\CastedRay.h">
+      <Filter>Header Files\Geometry\Rays</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Ray.h">
+      <Filter>Header Files\Geometry\Rays</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\RayTriangleIntersection.h">
+      <Filter>Header Files\Geometry\Rays</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Material.h">
+      <Filter>Header Files\Geometry\Lights &amp; colors</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\PointLight.h">
+      <Filter>Header Files\Geometry\Lights &amp; colors</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\RGBColor.h">
+      <Filter>Header Files\Geometry\Lights &amp; colors</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Camera.h">
+      <Filter>Header Files\Geometry\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Spy\Spy.h">
+      <Filter>Header Files\Spy</Filter>
+    </ClInclude>
+    <ClInclude Include="set\set_operators.h">
+      <Filter>Header Files\Set</Filter>
+    </ClInclude>
+    <ClInclude Include="Visualizer\namespaceDoc.h">
+      <Filter>Header Files\Visualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Visualizer\Visualizer.h">
+      <Filter>Header Files\Visualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\RandomDirection.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\LightCache.h">
+      <Filter>Header Files\Geometry\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\sse\Float4_functions.h">
+      <Filter>Header Files\Math\sse</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\sse\VectorFloat.h">
+      <Filter>Header Files\Math\sse</Filter>
+    </ClInclude>
+    <ClInclude Include="System\aligned_allocator.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RayCasting.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
