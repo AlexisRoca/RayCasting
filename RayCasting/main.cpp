@@ -18,6 +18,8 @@
 #include <Geometry/BoundingBox.h>
 //#include <omp.h>
 
+//Test
+
 using Geometry::RGBColor ;
 using Geometry::Cone ;
 
