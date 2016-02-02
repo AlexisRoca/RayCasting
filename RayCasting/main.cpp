@@ -276,5 +276,7 @@ int main(int argc, char ** argv)
 	// 4 - waits until a key is pressed
 	waitKeyPressed();
 
+	//Test
+
 	return 0 ;
 }
