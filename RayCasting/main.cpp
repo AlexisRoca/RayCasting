@@ -230,8 +230,8 @@ int main(int argc, char ** argv)
 	cout << "3.Scene avec le diffus,speculaire et réfraction" << endl;
 	cout << "4.Scene avec l'illumination globale" << endl;
 	cout << "5.Quitter" << endl;
-	//cin >> choix;
-	choix = 4;
+	cin >> choix;
+	//choix = 4;
 
 	switch (choix)
 	{
@@ -275,8 +275,6 @@ int main(int argc, char ** argv)
 
 	// 4 - waits until a key is pressed
 	waitKeyPressed();
-
-	//Test
-
+	
 	return 0 ;
 }
